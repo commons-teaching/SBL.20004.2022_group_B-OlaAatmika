@@ -1,16 +1,17 @@
-idTaxon,secteur
-Saintpaulia ionantha,Serre 4
-Saintpaulia grotei,Serre 4
-Streptocarpus sp. 2007- 547- 626,Serre 4
-Kohleria hirsuta,Serre 4
-Streptocarpus sp. 433,Serre 4
-Streptocarpus caulescens,Serre 4
-Columnea hirta,Serre 4
-Columnea microcalyx,Serre 4
-Episcia punctate,Serre 4
-Aeschynanthus longicaulis ,Serre 4
-Aeschynanthus fulgens,Serre 4
-Aeschynanthus radicans,Serre 4
-Sinningia cardinalis,Serre 4
-Sinningia leucotricha ,Serre 4
-Kohleria digitaliflora ,Serre 4
+sample ID,idTaxon,secteur
+DBGI_01_08_B,ND,ND
+DBGI_01_08_01,Saintpaulia ionantha,Serre 4
+DBGI_01_08_02,Saintpaulia grotei,Serre 4
+DBGI_01_08_03,Streptocarpus sp. 2007- 547- 626,Serre 4
+DBGI_01_08_04,Kohleria hirsuta,Serre 4
+DBGI_01_08_05,Streptocarpus sp. 433,Serre 4
+DBGI_01_08_06,Streptocarpus caulescens,Serre 4
+DBGI_01_08_07,Columnea hirta,Serre 4
+DBGI_01_08_08,Columnea microcalyx,Serre 4
+DBGI_01_08_09,Episcia punctate,Serre 4
+DBGI_01_08_10,Aeschynanthus longicaulis ,Serre 4
+DBGI_01_08_11,Aeschynanthus fulgens,Serre 4
+DBGI_01_08_12,Aeschynanthus radicans,Serre 4
+DBGI_01_08_13,Sinningia cardinalis,Serre 4
+DBGI_01_08_14,Sinningia leucotricha ,Serre 4
+DBGI_01_08_15,Kohleria digitaliflora ,Serre 4
