@@ -1,9 +1,25 @@
-Sampling 
-we cut around 2 small leaves from each plant (15 plants). 
-we dried them using silica gel in a ziplock bags. 
+Project: Metabolomics of 15 Gesneriaceae species 
 
-Extraction 
-solid liquid extraction using MeOH. 
+Aim: We aim to perfrom metabolomics on Gesneriaceae family to find the medicinal bio-active substances
+
+Sampling 
+* We cut around 2 small leaves from each plant (15 plants)
+* We put the samples in coffee filter and sealed them in ziplock bags
+* We used silica gel for drying and kept them for 2 weeks.
+
+Sample Extraction:
+* Solid Liquid extraction using MeOH. 
+* We weighed the sample ~ 50 mg in the eppendorf tubes (15 + 1 blank)
+* Put 3 metal beads per eppendorf
+* We kept the tubes in liquid nitrogen to freeze them completly
+* Crush the samples on Retsh system at 30 Hz for 3 mins
+* Add 1.7 ml of Methanol : H2O : Formic Acid (80 : 20 : 0.1)
+* Mix on Retzh system for another 3 mins at 30 Hz
+* Centrifuge the samples at 14000 rpm for 3 mins
+* Carefully take the supernatant (~ 1.3 ml) and transfer them to tubes and label them 
+* Store them in -80 degrees 
+
+
 
 Chromatography 
 LC with reversed phase colomn 
