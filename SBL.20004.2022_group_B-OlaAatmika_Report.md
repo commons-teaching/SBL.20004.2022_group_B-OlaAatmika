@@ -5,8 +5,7 @@ SBL.20004
 
 ----
 Group X
-- Surname Name
-- Surname Name
+- Abdelrahman Ola
 - Surname Name
 ----
 
