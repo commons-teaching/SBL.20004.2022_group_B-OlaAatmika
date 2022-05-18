@@ -15,6 +15,11 @@ Group X
 Some words on the backgorund of your projects.
 Which plants did you select and why ?
 
+Project: Metabolomics of 15 Gesneriaceae species 
+
+Aim: We aim to perfrom metabolomics on Gesneriaceae family to find the medicinal bio-active substances
+
+
 ## Material & Methods
 
 ### Sample collection
@@ -28,6 +33,29 @@ Go to the export link of the DBGI project on inaturalist https://www.inaturalist
 Apply eventual filters (fo rexample by username)
 Save the csv and upload to github.
 
+Sampling 
+* We cut around 2 small leaves from each plant (15 plants)
+* We put the samples in coffee filter and sealed them in ziplock bags
+* We used silica gel for drying and kept them for 2 weeks.
+
+Sample details: 
+
+sample name                                Weight
+Saintpaulia ionantha                        52 mg
+Saintpaulia grotei                          50 mg 
+Streptocarpus sp.2007- 547- 626             51 mg
+Kohleria hirsuta                            49 mg
+Streptocarpus sp.433                        52 mg
+Streptocarpus caulescens                    55 mg
+Columnea hirta                              54 mg 
+Columnea microcalyx                         51 mg
+Episcia punctate                            50 mg
+Aeschynanthus longicaulis                   55 mg
+Aeschynanthus fulgens                       49 mg 
+Aeschynanthus radicans                      53 mg
+Sinningia cardinalis                        51 mg
+Sinningia leucotricha                       53 mg
+Kohleria digitaliflora                      50 mg
 
 Example see [table X](https://github.com/commons-teaching/SBL.20004.2022/blob/main/data/observations-238383.csv) 
 
@@ -35,10 +63,23 @@ Example see [table X](https://github.com/commons-teaching/SBL.20004.2022/blob/ma
 
 - Describe your sample preparation
 
+Sample Extraction:
+* Solid Liquid extraction using MeOH. 
+* We weighed the sample ~ 50 mg in the eppendorf tubes (15 + 1 blank)
+* Put 3 metal beads per eppendorf
+* We kept the tubes in liquid nitrogen to freeze them completly
+* Crush the samples on Retsh system at 30 Hz for 3 mins
+* Add 1.7 ml of Methanol : H2O : Formic Acid (80 : 20 : 0.1)
+* Mix on Retzh system for another 3 mins at 30 Hz
+* Centrifuge the samples at 14000 rpm for 3 mins
+* Carefully take the supernatant (~ 1.3 ml) and transfer them to tubes and label them 
+* Store them in -80 degrees 
+* 
 ### LCMS Analysis
 
 - Describe the LC conditions
-- Describe the MS conditions
+Chromatography 
+LC with reversed phase colomn 
 
 ### Data treatment
 
