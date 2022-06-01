@@ -4,7 +4,7 @@ SBL.20004
 18.05.2022
 
 ----
-Group X
+Group B 
 - Abdelrahman Ola
 - Brave Aatmika
 ----
@@ -395,18 +395,6 @@ NEUTRAL LOSSES
  
 MASS TAGS
    (no entries)
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
 
 
 ### Data treatment
