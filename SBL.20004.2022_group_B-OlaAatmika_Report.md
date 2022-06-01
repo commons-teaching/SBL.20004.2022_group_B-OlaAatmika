@@ -67,8 +67,8 @@ A Solid Liquid extraction was performed to the dried samples using solvents mixt
 ### LCMS Analysis
 
 The samples were injected on Liquid Chromatography coupled with Mass Spectrometry system, the conditions are descibed on the following links
-* LC conditions:
-* MS conditions: 
+* LC conditions: https://github.com/commons-teaching/SBL.20004.2022_group_B-OlaAatmika/blob/1af71651b08b8a4b8029d96b7afd7f732b006d45/SBL.20004.2022_group_B-OlaAatmika_LC_conditions.txt
+* MS conditions: https://github.com/commons-teaching/SBL.20004.2022_group_B-OlaAatmika/blob/1af71651b08b8a4b8029d96b7afd7f732b006d45/SBL.20004.2022_group_B-OlaAatmika_MS_conditions.txt
 
 
 
