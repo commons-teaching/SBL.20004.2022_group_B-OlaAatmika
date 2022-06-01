@@ -408,6 +408,8 @@ MASS TAGS
 
 How many features could you clean in your final peak list ?
 A link to the final feature list (uploaded to github).
+1743 masses
+https://github.com/commons-teaching/SBL.20004.2022_group_B-OlaAatmika/blob/32e425d1c1d29fb9bb2eebb39876608eafcf20a5/SBL.20004.2022_group_B-OlaAatmika%20GNPS%20file_quant.csv
 
 ### Molecular Network
 
