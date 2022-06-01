@@ -61,12 +61,7 @@ Example see [table X](https://github.com/commons-teaching/SBL.20004.2022/blob/ma
 
 ### Sample preparation
 
-- Describe your sample preparation
-
-Sample Extraction:
-* Solid Liquid extraction using MeOH. 
-* We weighed the sample ~ 50 mg in the eppendorf tubes (15 + 1 blank)
-* Put 3 metal beads per eppendorf
+A Solid Liquid extraction was performed to the dried samples using solvents mixure of Methanol : H2O : Formic Acid (80 : 20 : 0.1), We weighed ~ 50 mg of each sample and put it in a clean 2 ml eppendorf tubes, then 3 metal beads were put per sample tube in addition to one empty tube which was considered as a blank. the samples were completly freezed usin liquid nitrogen before crusing them with 
 * We kept the tubes in liquid nitrogen to freeze them completly
 * Crush the samples on Retsh system at 30 Hz for 3 mins
 * Add 1.7 ml of Methanol : H2O : Formic Acid (80 : 20 : 0.1)
