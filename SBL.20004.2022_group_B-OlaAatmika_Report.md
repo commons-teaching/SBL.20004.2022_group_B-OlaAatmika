@@ -40,22 +40,23 @@ Sampling
 
 Sample details: 
 
-sample name                                Weight
-Saintpaulia ionantha                        52 mg
-Saintpaulia grotei                          50 mg 
-Streptocarpus sp.2007- 547- 626             51 mg
-Kohleria hirsuta                            49 mg
-Streptocarpus sp.433                        52 mg
-Streptocarpus caulescens                    55 mg
-Columnea hirta                              54 mg 
-Columnea microcalyx                         51 mg
-Episcia punctate                            50 mg
-Aeschynanthus longicaulis                   55 mg
-Aeschynanthus fulgens                       49 mg 
-Aeschynanthus radicans                      53 mg
-Sinningia cardinalis                        51 mg
-Sinningia leucotricha                       53 mg
-Kohleria digitaliflora                      50 mg
+|Sample name                                |Weight|
+|-------------------------------------------|------|
+|Saintpaulia ionantha                       |52 mg|
+|Saintpaulia grotei                         |50 mg|
+|Streptocarpus sp.2007- 547- 626            |51 mg|
+|Kohleria hirsuta                           |49 mg|
+|Streptocarpus sp.433                       |52 mg|
+|Streptocarpus caulescens                   |55 mg|
+|Columnea hirta                             |54 mg|
+|Columnea microcalyx                        |51 mg|
+|Episcia punctate                           |50 mg|
+|Aeschynanthus longicaulis                  |55 mg|
+|Aeschynanthus fulgens                      |49 mg|
+|Aeschynanthus radicans                     |53 mg|
+|Sinningia cardinalis                       |51 mg|
+|Sinningia leucotricha                      |53 mg|
+|Kohleria digitaliflora                     |50 mg|
 
 Example see [table X](https://github.com/commons-teaching/SBL.20004.2022/blob/main/data/observations-238383.csv) 
 
