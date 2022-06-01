@@ -69,205 +69,205 @@ The samples were injected on Liquid Chromatography coupled with Mass Spectrometr
 
 * LC part conditions:
 ---- Overview ----
-Name: New Instrument Method
-Comment: 
-Run time: 12.000 [min]
-Instrument: Vanquish on qexactiveplus
-Description: 
+- Name: New Instrument Method
+- Comment: 
+- Run time: 12.000 [min]
+- Instrument: Vanquish on qexactiveplus
+- Description: 
 ---- Script ----
-initial     Instrument Setup
-            ColumnComp.PrehtLeft.ReadyTempDelta: 1.00 [°C]
-            ColumnComp.PrehtLeft.TempCtrl: On
-            ColumnComp.PrehtLeft.Temperature.Nominal: 40.00 [°C]
-            ColumnComp.PrehtLeft.EquilibrationTime: 1.0 [min]
-            ColumnComp.CC.Mode: StillAir
-            ColumnComp.CC.ReadyTempDelta: 1.00 [°C]
-            ColumnComp.CC.TempCtrl: On
-            ColumnComp.CC.Temperature.Nominal: 40.00 [°C]
-            ColumnComp.CC.EquilibrationTime: 1.0 [min]
-            ColumnComp.Column_A.SystemPressure: "Pump"
-            ColumnComp.Column_B.ActiveColumn: No
-            ColumnComp.Column_B.SystemPressure: "Pump"
-            ColumnComp.Column_C.ActiveColumn: No
-            ColumnComp.Column_C.SystemPressure: "Pump"
-            ColumnComp.Column_D.ActiveColumn: No
-            ColumnComp.Column_D.SystemPressure: "Pump"
-            SamplerModule.Sampler.PunctureOffset: 0 [µm]
-            SamplerModule.Sampler.WashSpeed: 10.0 [µl/s]
-            SamplerModule.Sampler.InjectWashMode: Both
-            SamplerModule.Sampler.WashTime: 2.0 [s]
-            SamplerModule.Sampler.DispenseSpeed: 5.000 [µl/s]
-            SamplerModule.Sampler.DrawSpeed: 5.000 [µl/s]
-            SamplerModule.Sampler.Pump: "Pump"
-            SamplerModule.TempCtrl: On
-            SamplerModule.Temperature.Nominal: 10.0 [°C]
-            PumpModule.Pump.%B_Selector: %B1
-            PumpModule.Pump.%A_Selector: %A1
-            PumpModule.Pump.%A1_Equate: "H2O"
-            PumpModule.Pump.%A2_Equate: "%A2"
-            PumpModule.Pump.%A3_Equate: "%A3"
-            PumpModule.Pump.%B1_Equate: "ACN"
-            PumpModule.Pump.%B2_Equate: "%B2"
-            PumpModule.Pump.%B3_Equate: "%B3"
-            PumpModule.Pump.Pressure.LowerLimit: 0 [bar]
-            PumpModule.Pump.Pressure.UpperLimit: 1000 [bar]
-            PumpModule.Pump.MaximumFlowRampUp: 6.00 [ml/min²]
-            PumpModule.Pump.MaximumFlowRampDown: 6.00 [ml/min²]
-0.000 [min] Inject Preparation
-            Wait ColumnComp.Ready And SamplerModule.Sampler.Ready And PumpModule.Pump.Ready
-0.000 [min] Inject
-            SamplerModule.Sampler.Inject 
-0.000 [min] Start Run
-            ColumnComp.CC_Temp.AcqOn 
-            ColumnComp.PrehtLeft_Temp.AcqOn 
-            PumpModule.Pump.Pump_Pressure.AcqOn 
-0.000 [min] Run
-            PumpModule.Pump.Flow.Nominal: 0.600 [ml/min]
-            PumpModule.Pump.%B.Value: 5.0 [%]
-            PumpModule.Pump.Curve: 5
-6.000 [min]
-            PumpModule.Pump.Flow.Nominal: 0.600 [ml/min]
-            PumpModule.Pump.%B.Value: 100.0 [%]
-            PumpModule.Pump.Curve: 5
-8.000 [min]
-            PumpModule.Pump.Flow.Nominal: 0.600 [ml/min]
-            PumpModule.Pump.%B.Value: 100.0 [%]
-            PumpModule.Pump.Curve: 5
-8.100 [min]
-            PumpModule.Pump.Flow.Nominal: 0.600 [ml/min]
-            PumpModule.Pump.%B.Value: 5.0 [%]
-            PumpModule.Pump.Curve: 5
-10.000 [min]
-            PumpModule.Pump.Flow.Nominal: 0.600 [ml/min]
-            PumpModule.Pump.%B.Value: 5.0 [%]
-            PumpModule.Pump.Curve: 5
-12.000 [min] Stop Run
-            ColumnComp.CC_Temp.AcqOff 
-            ColumnComp.PrehtLeft_Temp.AcqOff 
-            PumpModule.Pump.Pump_Pressure.AcqOff 
+- initial     Instrument Setup
+-            ColumnComp.PrehtLeft.ReadyTempDelta: 1.00 [°C]
+-            ColumnComp.PrehtLeft.TempCtrl: On
+-            ColumnComp.PrehtLeft.Temperature.Nominal: 40.00 [°C]
+-            ColumnComp.PrehtLeft.EquilibrationTime: 1.0 [min]
+-            ColumnComp.CC.Mode: StillAir
+-            ColumnComp.CC.ReadyTempDelta: 1.00 [°C]
+-            ColumnComp.CC.TempCtrl: On
+-            ColumnComp.CC.Temperature.Nominal: 40.00 [°C]
+-            ColumnComp.CC.EquilibrationTime: 1.0 [min]
+-            ColumnComp.Column_A.SystemPressure: "Pump"
+-            ColumnComp.Column_B.ActiveColumn: No
+-            ColumnComp.Column_B.SystemPressure: "Pump"
+-            ColumnComp.Column_C.ActiveColumn: No
+-            ColumnComp.Column_C.SystemPressure: "Pump"
+-            ColumnComp.Column_D.ActiveColumn: No
+-            ColumnComp.Column_D.SystemPressure: "Pump"
+-            SamplerModule.Sampler.PunctureOffset: 0 [µm]
+-            SamplerModule.Sampler.WashSpeed: 10.0 [µl/s]
+-            SamplerModule.Sampler.InjectWashMode: Both
+-            SamplerModule.Sampler.WashTime: 2.0 [s]
+-            SamplerModule.Sampler.DispenseSpeed: 5.000 [µl/s]
+-            SamplerModule.Sampler.DrawSpeed: 5.000 [µl/s]
+-            SamplerModule.Sampler.Pump: "Pump"
+-            SamplerModule.TempCtrl: On
+-            SamplerModule.Temperature.Nominal: 10.0 [°C]
+-            PumpModule.Pump.%B_Selector: %B1
+-            PumpModule.Pump.%A_Selector: %A1
+-            PumpModule.Pump.%A1_Equate: "H2O"
+-            PumpModule.Pump.%A2_Equate: "%A2"
+-            PumpModule.Pump.%A3_Equate: "%A3"
+-            PumpModule.Pump.%B1_Equate: "ACN"
+-            PumpModule.Pump.%B2_Equate: "%B2"
+-            PumpModule.Pump.%B3_Equate: "%B3"
+-            PumpModule.Pump.Pressure.LowerLimit: 0 [bar]
+-            PumpModule.Pump.Pressure.UpperLimit: 1000 [bar]
+-            PumpModule.Pump.MaximumFlowRampUp: 6.00 [ml/min²]
+-            PumpModule.Pump.MaximumFlowRampDown: 6.00 [ml/min²]
+- 0.000 [min] Inject Preparation
+-            Wait ColumnComp.Ready And SamplerModule.Sampler.Ready And PumpModule.Pump.Ready
+- 0.000 [min] Inject
+-            SamplerModule.Sampler.Inject 
+- 0.000 [min] Start Run
+-            ColumnComp.CC_Temp.AcqOn 
+-            ColumnComp.PrehtLeft_Temp.AcqOn 
+-            PumpModule.Pump.Pump_Pressure.AcqOn 
+-0.000 [min] Run
+-            PumpModule.Pump.Flow.Nominal: 0.600 [ml/min]
+-            PumpModule.Pump.%B.Value: 5.0 [%]
+-            PumpModule.Pump.Curve: 5
+-6.000 [min]
+-            PumpModule.Pump.Flow.Nominal: 0.600 [ml/min]
+-            PumpModule.Pump.%B.Value: 100.0 [%]
+-            PumpModule.Pump.Curve: 5
+-8.000 [min]
+-            PumpModule.Pump.Flow.Nominal: 0.600 [ml/min]
+-            PumpModule.Pump.%B.Value: 100.0 [%]
+-            PumpModule.Pump.Curve: 5
+-8.100 [min]
+-            PumpModule.Pump.Flow.Nominal: 0.600 [ml/min]
+-            PumpModule.Pump.%B.Value: 5.0 [%]
+-            PumpModule.Pump.Curve: 5
+- 10.000 [min]
+-            PumpModule.Pump.Flow.Nominal: 0.600 [ml/min]
+-            PumpModule.Pump.%B.Value: 5.0 [%]
+-            PumpModule.Pump.Curve: 5
+-12.000 [min] Stop Run
+-            ColumnComp.CC_Temp.AcqOff 
+-            ColumnComp.PrehtLeft_Temp.AcqOff 
+-            PumpModule.Pump.Pump_Pressure.AcqOff 
 
 
-- MS conditions: 
-Method of Q Exactive Plus
+* MS conditions: 
+- Method of Q Exactive Plus
  
-OVERALL METHOD SETTINGS
+- OVERALL METHOD SETTINGS
  
-Global Settings
-Use lock masses                                                         best 
-Lock mass injection                                                        ― 
-Chrom. peak width (FWHM)                                                   5 s
-Time
-Method duration                                                         8.00 min
-Customized Tolerances (+/-)
-Lock Masses                                                                ― 
-Inclusion                                                                  ― 
-Exclusion                                                                  ― 
-Neutral Loss                                                               ― 
-Mass Tags                                                                  ― 
-Dynamic Exclusion                                                          ― 
- 
- 
-                                   Experiment
- 
-FULL MS / DD-MS² (TOPN)
-General
-Runtime                                                               0 to 8 min
-Polarity                                                            positive 
-In-source CID                                                            0.0 eV
-Default charge state                                                       1 
-Inclusion                                                                  ― 
-Exclusion                                                                  ― 
-Tags                                                                       ― 
-Full MS
-Microscans                                                                 1 
-Resolution                                                            35,000 
-AGC target                                                               3e6 
-Maximum IT                                                               100 ms
-Number of scan ranges                                                      1 
-Scan range                                                       100 to 1200 m/z
-Spectrum data type                                                  Centroid 
-dd-MS² / dd-SIM
-Microscans                                                                 1 
-Resolution                                                            17,500 
-AGC target                                                               1e5 
-Maximum IT                                                                50 ms
-Loop count                                                                 4 
-MSX count                                                                  1 
-TopN                                                                       4 
-Isolation window                                                         1.0 m/z
-Isolation offset                                                         0.0 m/z
-Scan range                                                       200 to 2000 m/z
-Fixed first mass                                                           ― 
-(N)CE / stepped (N)CE                                        nce: 15, 30, 45 
-Spectrum data type                                                  Centroid 
-dd Settings
-Minimum AGC target                                                    8.00e3 
-Intensity threshold                                                    1.6e5 
-Apex trigger                                                               ― 
-Charge exclusion                                                           ― 
-Multiple charge states                                                   all 
-Peptide match                                                              ― 
-Exclude isotopes                                                          on 
-Dynamic exclusion                                                        2.0 s
-If idle ..                                                do not pick others 
+-Global Settings
+-Use lock masses                                                         best 
+-Lock mass injection                                                        ― 
+-Chrom. peak width (FWHM)                                                   5 s
+-Time
+-Method duration                                                         8.00 min
+-Customized Tolerances (+/-)
+-Lock Masses                                                                ― 
+-Inclusion                                                                  ― 
+-Exclusion                                                                  ― 
+-Neutral Loss                                                               ― 
+-Mass Tags                                                                  ― 
+-Dynamic Exclusion                                                          ― 
+- 
+- 
+-                                   Experiment
+- 
+-FULL MS / DD-MS² (TOPN)
+-General
+-Runtime                                                               0 to 8 min
+-Polarity                                                            positive 
+-In-source CID                                                            0.0 eV
+-Default charge state                                                       1 
+-Inclusion                                                                  ― 
+-Exclusion                                                                  ― 
+-Tags                                                                       ― 
+-Full MS
+-Microscans                                                                 1 
+-Resolution                                                            35,000 
+-GC target                                                               3e6 
+-Maximum IT                                                               100 ms
+-Number of scan ranges                                                      1 
+-Scan range                                                       100 to 1200 m/z
+-Spectrum data type                                                  Centroid 
+-dd-MS² / dd-SIM
+-Microscans                                                                 1 
+-Resolution                                                            17,500 
+-AGC target                                                               1e5 
+-Maximum IT                                                                50 ms
+-Loop count                                                                 4 
+-MSX count                                                                  1 
+-TopN                                                                       4 
+-Isolation window                                                         1.0 m/z
+-Isolation offset                                                         0.0 m/z
+-Scan range                                                       200 to 2000 m/z
+-Fixed first mass                                                           ― 
+-(N)CE / stepped (N)CE                                        nce: 15, 30, 45 
+-Spectrum data type                                                  Centroid 
+-dd Settings
+-Minimum AGC target                                                    8.00e3 
+-Intensity threshold                                                    1.6e5 
+-Apex trigger                                                               ― 
+-Charge exclusion                                                           ― 
+-Multiple charge states                                                   all 
+-Peptide match                                                              ― 
+-Exclude isotopes                                                          on 
+-Dynamic exclusion                                                        2.0 s
+-If idle ..                                                do not pick others 
  
                                      Setup
  
-TUNEFILES
-General
-Switch Count  0
-Base Tunefile C:\Xcalibur\methods\600_default.mstune
+-TUNEFILES
+-General
+-Switch Count  0
+-Base Tunefile C:\Xcalibur\methods\600_default.mstune
+
+-CONTACT CLOSURE
+-General
+-Used            False 
+-Start in Closed  True 
+-Switch Count        0 
  
-CONTACT CLOSURE
-General
-Used            False 
-Start in Closed  True 
-Switch Count        0 
+-SYRINGE
+-General
+-Used                  False 
+-Start in OFF           True 
+-Stop at end of run    False 
+-Switch Count              0 
+-Pump setup
+-Syringe type       Hamilton 
+-Flow rate             3.000 µL/min
+-Inner diameter        2.303 mm
+-Volume                  250 µL
  
-SYRINGE
-General
-Used                  False 
-Start in OFF           True 
-Stop at end of run    False 
-Switch Count              0 
-Pump setup
-Syringe type       Hamilton 
-Flow rate             3.000 µL/min
-Inner diameter        2.303 mm
-Volume                  250 µL
+-DIVERT VALVE A
+-General
+-Used         False 
+-Start in 1-2  True 
+-Switch Count     0 
  
-DIVERT VALVE A
-General
-Used         False 
-Start in 1-2  True 
-Switch Count     0 
+-DIVERT VALVE B
+-General
+-Used         False 
+-Start in 1-2  True 
+-Switch Count     0 
  
-DIVERT VALVE B
-General
-Used         False 
-Start in 1-2  True 
-Switch Count     0 
- 
-LOCK MASSES
-    1 entry
-     Mass Polarity Start   End Comment
-    [m/z]          [min] [min] 
-391.28429 Positive             
- 
-INCLUSION LIST
-   (no entries)
- 
-EXCLUSION LIST
-    128 entries
-     Mass Formula Species  CS Polarity Start   End Comment
-    [m/z]     [M]         [z]          [min] [min] 
-100.07620                     Positive             
-102.01340                     Positive             
-103.95580                     Positive             
-107.06080                     Positive             
-108.06860                     Positive             
-110.02030                     Positive             
-110.07160                     Positive             
+-LOCK MASSES
+-    1 entry
+-     Mass Polarity Start   End Comment
+-    [m/z]          [min] [min] 
+-391.28429 Positive             
+- 
+-INCLUSION LIST
+-   (no entries)
+- 
+-EXCLUSION LIST
+-    128 entries
+-     Mass Formula Species  CS Polarity Start   End Comment
+-    [m/z]     [M]         [z]          [min] [min] 
+-100.07620                     Positive             
+-102.01340                     Positive             
+-103.95580                     Positive             
+-107.06080                     Positive             
+-108.06860                     Positive             
+-110.02030                     Positive             
+-110.07160                     Positive             
 111.02050                     Positive             
 111.09200                     Positive             
 112.01820                     Positive             
