@@ -1,5 +1,5 @@
-# Metabolomics analysis report
-SBL.20004 
+#  A metabolomic study of 15 Gesneriaceae species 
+SBL.20004 report
 
 18.05.2022
 
@@ -12,33 +12,23 @@ Group B
 
 ## Introduction
 
-Some words on the backgorund of your projects.
-Which plants did you select and why ?
 
-Project: Metabolomics of 15 Gesneriaceae species 
-
-Aim: We aim to perfrom metabolomics on Gesneriaceae family to find the medicinal bio-active substances
-
+Gesneriaceae, also known as gesneriad family, is a part of angiosperms. Till date it is known to consist of about 152 genera and 3,540 species in the tropic and subtropic areas [1]. It has a worldwide distribution including tropical American, Spain, Asia and Africa. Based on geography and characters of cotyledons and floral and vegetative differences, it is divided between an Old World and a New world subfamily and a very small group in the South Pacific, Australia and Southern Chile. They are usually found on limestone cliffs, in rain forests and on the mountains.
+The gesneriads were greatly used by Amer-Indians and Shamans for its medicinal uses. It accounts for around 100 species of New World divisions, to have ethnomedicinal properties. This number is almost close to the Araceace and Solanaceae family (Bennet, 1992). Several bioactive species of gesneriads have multiple uses in pharmacopeia of indigenous population. Among them 50 % of the bioactive species are known to be remedies for bite of deadly poisonous snakes (Wiehler, 1995). Apart from that Gesneriads are frequently used against fever, respiratory problems, inflammation, wounds and pain and infectious diseases [2]. Some of the important species in the family reported to be Dalbergaria ericae, D. villoisissima, Nautilocalyx sastrei, Trichantha parviflora, Sinningia leucotricha (Wiehler 1995). In the early studies on Gesneriads, very little was known about its chemistry that includes, flavonoids, cinnamic acid derivatives, anthocyanin found in the leaves and petals of neotropical subfamily. Another paleotropical subfamily reported to have quinones, chalcones and aurones (Harbone, 1966); dihydric phenols, glycosides acteosides and conandroside( Kvist & Pederson, 1986). The search for new chemical compounds in this family carried on since then. Recently, some studies have put more focus on discovering new chemical compounds in the family including Phenolic glycosides, Phenyl pranoids and quinones and other fatty acid long chains [2]. Some genera like Chirtia, Didymocarpus, Rhynchotechum, Sinningia and Streptocarpus show good abundance of quinones[2]. Sinningia species are particularly found to have several naphthoquinones. Sinningia reitzii is known to have more than eighth naphthoquinones including 6,7-dimethoxydunnione, 7-hydroxy-6-methoxydunnione etc. Similarly Sinningia leucotricha, S.canescens, S.tubiflora showed an abundance of newly discovered naphthoquinones. Naphthoquinones are associated with many biological activities including antibacterial, cytotoxic, antitumoral, insecticidal and anti-inflammatory. 
+                     In this study, we aim to have a chemotaxic profiling of 15 species of Gesneriaceae family to explore the presence of the bio-active compounds that are previously studied in the literature. We have used Liquid-Chromatography/Mass Spectrometry to extract the bio-active substances and we build a molecular network with the analyzed data using GNPS and Cytoscape domains. This study is a part of Digital Botanical Garden Initiative(DBGI), which aims to build a molecular cartography of the botanical garden of University of Fribourg.    
+   
 
 ## Material & Methods
 
 ### Sample collection
 
-- Where we the plants collected ? 
-- Which species were collected ? 
-- Link to the iNaturalist entries of your species.
+We collected 15 plant samples from 15 respective species of the family Gesneriaceae. These samples were collected from the Serveur 4 of Jardin de Botanique de l'Université de Fribourg. We have collected the following species to examine their medicinal metabolites:  Saintpaulia ionantha, Saintpaulia grotei, Streptocarpus sp.2007- 547- 626, Kohleria hirsuta, Streptocarpus sp.433, Streptocarpus caulescens,  Columnea hirta , Columnea microcalyx , Episcia punctate, Aeschynanthus longicaulis, Aeschynanthus fulgens , Aeschynanthus radicans , Sinningia cardinalis , Sinningia leucotricha, Kohleria digitaliflora. We took the pictures of these plants and registered them in the DBGI project in the iNaturalist domain. The details for these species can be accessed here: https://github.com/commons-teaching/SBL.20004.2022_group_B-OlaAatmika/blob/main/Observations_GroupB_Ola_Aatmika.csv. We used sterilized scalpel and scissors to cut the part of the plants. We cut around 2 small leaves from each plant. We put the samples in a coffee filter and sealed them in ziplock bags. We used silica gel for drying and kept them for 2 weeks for appropriate drying. 
 
-You can link a csv that you upload on github.
-Go to the export link of the DBGI project on inaturalist https://www.inaturalist.org/observations/export?projects=digital-botanical-gardens-initiative
-Apply eventual filters (fo rexample by username)
-Save the csv and upload to github.
+### Sample preparation
 
-Sampling 
-* We cut around 2 small leaves from each plant (15 plants)
-* We put the samples in coffee filter and sealed them in ziplock bags
-* We used silica gel for drying and kept them for 2 weeks.
+A Solid Liquid extraction was performed to the dried samples using solvents mixture of Methanol : H2O : Formic Acid (80 : 20 : 0.1). We weighed ~ 50 mg of each sample (Table 1) and put it in a clean 2 ml Eppendorf tube, then 3 metal beads were put per sample tube, in addition to one empty tube which was considered as a blank. The samples were completely frozen using liquid nitrogen before grinding them with a Retsch mixer mill at 30 Hz for 3 mins. 1.7 ml of the solvents mixure were added to each tube. The samples were agitated with the solvent using a Retsch mixer mill for 3 minutes at 30 Hz. We centrifuged the extracts at 14000 rpm for 3 mins, the supernatants (~ 1.3 ml) were transferred carefully to clean labeled glass vials, we covered the vials with slotted screw caps, and Stored them at -80° C degrees.
 
-Sample details: 
+Table 1: Weight of the samples 
 
 |Sample name                                |Weight|
 |-------------------------------------------|------|
@@ -58,39 +48,39 @@ Sample details:
 |Sinningia leucotricha                      |53 mg|
 |Kohleria digitaliflora                     |50 mg|
 
-Example see [table X](https://github.com/commons-teaching/SBL.20004.2022/blob/main/data/observations-238383.csv) 
-
-### Sample preparation
-
-A Solid Liquid extraction was performed to the dried samples using solvents mixture of Methanol : H2O : Formic Acid (80 : 20 : 0.1). We weighed ~ 50 mg of each sample and put it in a clean 2 ml Eppendorf tubes, then 3 metal beads were put per sample tube, in addition to one empty tube which was considered as a blank. the samples were completely freezed using liquid nitrogen before grinding them with Retsch mixer mill at 30 Hz for 3 mins. 1.7 ml of Methanol : H2O : Formic Acid (80 : 20 : 0.1) were added to each tube, the samples were mixed with the solvent mixture for using Retsch mixer mill for 3 minutes at 30 Hz. We centrifuged the extracts at 14000 rpm for 3 mins, the supernatants (~ 1.3 ml) were transferred carefully to clean labelled glass vials, we covered the vials with slotted screw caps, and Stored them in -80° C degrees. 
 
 ### LCMS Analysis
 
-The samples were injected on Liquid Chromatography coupled with Mass Spectrometry system, the conditions are descibed on the following links
-* LC conditions: https://github.com/commons-teaching/SBL.20004.2022_group_B-OlaAatmika/blob/1af71651b08b8a4b8029d96b7afd7f732b006d45/SBL.20004.2022_group_B-OlaAatmika_LC_conditions.txt
-* MS conditions: https://github.com/commons-teaching/SBL.20004.2022_group_B-OlaAatmika/blob/1af71651b08b8a4b8029d96b7afd7f732b006d45/SBL.20004.2022_group_B-OlaAatmika_MS_conditions.txt
+The samples were injected on Liquid Chromatography coupled with Mass Spectrometry system (LC-MS), the conditions of LC-MS are described on the following links:
 
+* LC conditions (Reversed phase C18 column): https://github.com/commons-teaching/SBL.20004.2022_group_B-OlaAatmika/blob/1af71651b08b8a4b8029d96b7afd7f732b006d45/SBL.20004.2022_group_B-OlaAatmika_LC_conditions.txt
+
+* MS conditions (Electro spray ionization source and orbital ion trap mass analyzer): https://github.com/commons-teaching/SBL.20004.2022_group_B-OlaAatmika/blob/1af71651b08b8a4b8029d96b7afd7f732b006d45/SBL.20004.2022_group_B-OlaAatmika_MS_conditions.txt
 
 
 ### Data treatment
 
-- Describe the software and parameters used.
+The raw data obtained from the machine software (Xcalibur Data Acquisition and Interpretation Software- Thermo Fisher) were converted to mzML format using [Proteowizard software](https://proteowizard.sourceforge.io/) in order to be able to open and treat them with [MzMine 2.53 software](https://github.com/mzmine/mzmine2/releases), 4 steps of data treatment were performed using MzMine as follows:
+Mass detection from the total ion chromatogram of each sample with centroid mass detector (MS1 noise level= 3.0E3, MS2 noise level = 0). 
+Extracted ion chromatograms building for the detected masses using ADAP chromatogram builder with min group size in # scan= 5, group intensity threshold and minimum highest intensity= 3.0E5, while the m/z tolerance was 0.001 m/z or 12.0 ppm. 
+Chromatograms deconvolution with wavelets (ADAP) algorithm with a minimum signal to noise ratio (S/N) threshold= 10, intensity windows SN estimator, minimum feature hight= 1, area threshold= 110, peak duration range between 0.02 to 1 and retention time duration range between 0.02 and 0.09. The m/z range for MS2 scan pairing (DA) was 0.025 and the RT range for MS2 scan pairing (min) was 0.15. 
+After the chromatograms deconvolution we removed the isotopic peaks redundancy by grouping them using the isotopic peak grouper function with m/z tolerance= 0.001 or 12.0 ppm and RT tolerance= 0.2 mins and a maximum charge of 3. 
+Samples’ features list alignment using the join aligner function with m/z tolerance= 0.001 or 12.0 ppm and RT tolerance= 0.2 mins and finally weight for m/z and RT= 30. 
+The final aligned features list was exported from MzMine as comma separated values file (CSV) and Mascot Generic Format file (MGF), those two files along with a meta data file were uploaded to [Global Natural Products Social Molecular Networking website (GNPS)](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) with the help of [Filezilla](https://filezilla-project.org/download.php?type=client). A spectral network of our spectra was built using the feature based molecular networking tool provided by the [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp). The meta data file and the parameters of building the network were performed according to the steps mentioned in [GNPS documentation](https://ccms-ucsd.github.io/GNPSDocumentation/). Finally the spectral network was downloaded from GNPS and visualized using [Cytoscape](https://cytoscape.org/) software v_3.9.1.
 
 ## Results
 
 
 ### MS1
 
-How many features could you clean in your final peak list ?
-A link to the final feature list (uploaded to github).
-1743 masses
-https://github.com/commons-teaching/SBL.20004.2022_group_B-OlaAatmika/blob/32e425d1c1d29fb9bb2eebb39876608eafcf20a5/SBL.20004.2022_group_B-OlaAatmika%20GNPS%20file_quant.csv
+1748 features were obtained in our [final peak list](https://github.com/commons-teaching/SBL.20004.2022_group_B-OlaAatmika/blob/256f9e1b2097ff109aff96663234b16fc0cb112a/SBL.20004.2022_group_B-OlaAatmika%20GNPS%20file_quant.csv), after the data treatment described in materials and methods. 
 
 ### Molecular Network
 
+The visualization of the [spectral network](https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=5b1d31785ee14497bbd135809d221d16) yielded 20 clusters of more than five features, 6 of five features, 14 of four features, 23 of three features, 45 of 2 features and 563 singltones. Thirty hits were obtained as a result of the comparison done by GNPS with the data base, they are shown on [the library hit table](https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=5b1d31785ee14497bbd135809d221d16&view=view_all_annotations_DB)
+ 
 Screenshots of your molecular network and of some clusters of interest.
-Link to the GNPS job.
-Link to the GNPS identification table.
+
 
 
 ## Conclusion
@@ -102,3 +92,9 @@ Some conclusion that you could get out of this preliminary study.
 Note that you can make a footnot like this [^1]
 
 [^1]: Ref X
+
+
+[1] 	Christenhusz MJM, Byng JW (2016) The number of known plants species in the world and its annual increase. Phytotaxa 261, 201–217.
+[2] 	Verdan MH, Stefanello MÉA (2012) Secondary metabolites and biological properties of Gesneriaceae species. Chem Biodivers 9, 2701–2731.
+[2]  	Bennett, B. C. (1992). USES OF EPIPHYTES, LIANAS, AND PARASITES BY THE SHUAR PEOPLE OF AMAZONIAN ECUADOR. Selbyana, 13, 99–114. Retrieved from https://journals.flvc.org/selbyana/article/view/120969
+
