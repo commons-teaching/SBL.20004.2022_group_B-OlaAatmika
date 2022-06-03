@@ -65,16 +65,19 @@ The samples were injected on Liquid Chromatography coupled with Mass Spectrometr
 ### Data treatment
 
 The raw data obtained from the machine software (Xcalibur Data Acquisition and Interpretation Software- Thermo Fisher) were converted to mzML format using [Proteowizard software](https://proteowizard.sourceforge.io/) in order to be able to open and treat them with [MzMine 2.53 software](https://github.com/mzmine/mzmine2/releases), 4 steps of data treatment were performed using MzMine as follows:
-Mass detection from the total ion chromatogram of each sample with centroid mass detector (MS1 noise level= 3.0E3, MS2 noise level = 0). 
-Extracted ion chromatograms building for the detected masses using ADAP chromatogram builder with min group size in # scan= 5, group intensity threshold and minimum highest intensity= 3.0E5, while the m/z tolerance was 0.001 m/z or 12.0 ppm. 
-Chromatograms deconvolution with wavelets (ADAP) algorithm with a minimum signal to noise ratio (S/N) threshold= 10, intensity windows SN estimator, minimum feature hight= 1, area threshold= 110, peak duration range between 0.02 to 1 and retention time duration range between 0.02 and 0.09. The m/z range for MS2 scan pairing (DA) was 0.025 and the RT range for MS2 scan pairing (min) was 0.15. 
-After the chromatograms deconvolution we removed the isotopic peaks redundancy by grouping them using the isotopic peak grouper function with m/z tolerance= 0.001 or 12.0 ppm and RT tolerance= 0.2 mins and a maximum charge of 3. 
-Samples’ features list alignment using the join aligner function with m/z tolerance= 0.001 or 12.0 ppm and RT tolerance= 0.2 mins and finally weight for m/z and RT= 30. 
-The final aligned features list was exported from MzMine as comma separated values file (CSV) and Mascot Generic Format file (MGF), those two files along with a meta data file were uploaded to [Global Natural Products Social Molecular Networking website (GNPS)](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) with the help of [Filezilla](https://filezilla-project.org/download.php?type=client). A spectral network of our spectra was built using the feature based molecular networking tool provided by GNPS. The meta data file and the parameters of building the network were performed according to the steps mentioned in [GNPS documentation](https://ccms-ucsd.github.io/GNPSDocumentation/). Finally the spectral network was downloaded from GNPS and visualized using [Cytoscape software v_3.9.1](https://cytoscape.org/).
+
+1. Mass detection from the total ion chromatogram of each sample with centroid mass detector (MS1 noise level= 3.0E3, MS2 noise level = 0). 
+2. Extracted ion chromatograms building for the detected masses using ADAP chromatogram builder with min group size in # scan= 5, group intensity threshold and minimum highest intensity= 3.0E5, while the m/z tolerance was 0.001 m/z or 12.0 ppm.
+3. Chromatograms deconvolution with wavelets (ADAP) algorithm with a minimum signal to noise ratio (S/N) threshold= 10, intensity windows SN estimator, minimum feature hight= 1, area threshold= 110, peak duration range between 0.02 to 1 and retention time duration range between 0.02 and 0.09. The m/z range for MS2 scan pairing (DA) was 0.025 and the RT range for MS2 scan pairing (min) was 0.15. 
+4. After the chromatograms deconvolution we removed the isotopic peaks redundancy by grouping them using the isotopic peak grouper function with m/z tolerance= 0.001 or 12.0 ppm and RT tolerance= 0.2 mins and a maximum charge of 3. 
+5. Samples’ features list alignment using the join aligner function with m/z tolerance= 0.001 or 12.0 ppm and RT tolerance= 0.2 mins and finally weight for m/z and RT= 30.
+
+The final aligned features list was exported from MzMine as comma separated values file (CSV) and Mascot Generic Format file (MGF), those two files along with a meta data file were uploaded to [Global Natural Products Social Molecular Networking website (GNPS)](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) with the help of [Filezilla](https://filezilla-project.org/download.php?type=client). 
+
+A spectral network of our spectra was built using the feature based molecular networking tool provided by GNPS. The meta data file and the parameters of building the network were performed according to the steps mentioned in [GNPS documentation](https://ccms-ucsd.github.io/GNPSDocumentation/). Finally the spectral network was downloaded from GNPS and visualized using [Cytoscape software v_3.9.1](https://cytoscape.org/).
 
 
 ## Results
-
 
 ### MS1
 
@@ -82,12 +85,72 @@ The final aligned features list was exported from MzMine as comma separated valu
 
 ### Molecular Network
 
-The visualization of the [spectral network](https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=5b1d31785ee14497bbd135809d221d16) yielded 20 clusters of more than five features, 6 of five features, 14 of four features, 23 of three features, 45 of 2 features and 563 singletons. Thirty hits were obtained as a result of the comparison done by GNPS with the database, they are shown on [the library hit table](https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=5b1d31785ee14497bbd135809d221d16&view=view_all_annotations_DB)
+The visualization of the [spectral network](https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=5b1d31785ee14497bbd135809d221d16) yielded 20 clusters of more than five features, 6 of five features, 14 of four features, 23 of three features, 45 of 2 features and 563 singletons. 
+
+![spectral network labeled](https://user-images.githubusercontent.com/102287683/171931383-a74d9889-9ed1-4ec5-8c43-a0871605d52b.png)
+
+<p align="center"> Spectral network of 15 Gesneriaceae species
+
+From the 20 biggest clusters, seven were associated with Sinningia cardinales: cluster 1, 6, 7, 11, 13, 17, 20, 21 and 22.
+
+![6,7,11,13, 17, 20, 21,22,23](https://user-images.githubusercontent.com/102287683/171932552-610c9f8a-d3f5-4cbc-a35c-d181cf512183.png)
+
+<p align="center"> Cluster 1, 6, 7, 11, 13, 17, 20, 21 and 22
+
+It worth mentioning that the profile of Sinningia cardinalis was the best compared to the other samples as shown in the following picture 
+   
+![ALL](https://user-images.githubusercontent.com/102287683/171934833-6175c70e-9d1d-40dd-8155-13e97a698683.png)
+
+<p align="center"> Total ion chromatograms of all the samples
+          
+The clusters 2, 3 and 4 were shared between all the 15 species, indicating that those features are common between the family members under study 
+      
+![cluster 2 3 4 labeled](https://user-images.githubusercontent.com/102287683/171933570-f44d96da-ad45-40cb-a70b-d2739c34e4b2.png)
+<p align="center"> Cluster 2, 3 and 4
+          
+ Cluster 8 was shared between Saintpaulia, Sinningia and Streptocarpus species 
+
+![CLUSTER 8 SAINTPALIA AND SINNINGIA AND STREPTOCARPUS](https://user-images.githubusercontent.com/102287683/171934198-da4daed8-ed15-4754-a6cf-c6a139f5b11f.PNG)
+   
+<p align="center"> Cluster 8
+   
+
+
+   
+
+   Thirty hits were obtained as a result of the comparison done by GNPS with the database, they are shown on [the library hit table](https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=5b1d31785ee14497bbd135809d221d16&view=view_all_annotations_DB), out of them, several compounds with medicinal uses were found, below we state some examples with their mirror match spectra from the data base and their structure:
+   
+
+
+   
+ 1. ferulic acid produced by Streptocarpus sp. 2007- 547- 626,Saintpaulia grotei,Saintpaulia ionantha Sinningia cardinalis Streptocarpus sp. 2007- 547- 626 and Saintpaulia grotei
+
+![image](https://user-images.githubusercontent.com/102287683/171936966-529fad31-9ed2-47bd-bef1-a7e90db5674b.png)
+
+  2. eriocitrin specific to Streptocarpus sp. 433
+
+![image](https://user-images.githubusercontent.com/102287683/171937320-b4a37ce6-a45f-48ea-9193-6f010722762d.png)
+   
+  3. enoxolone produced by Sinningia cardinalis,Saintpaulia grotei and Saintpaulia ionantha
  
+![image](https://user-images.githubusercontent.com/102287683/171937978-ff4972cd-3a66-4229-b78c-2139dbd4ea86.png)
+   
+  4. beta-Lapachone specific to Saintpaulia grotei
+
+   
+![image](https://user-images.githubusercontent.com/102287683/171938646-6ab47436-37ea-46d2-9d44-f3957d1c978a.png)
+
+  5. Xanthoxylin specific to Sinningia cardinalis
+   
+![image](https://user-images.githubusercontent.com/102287683/171939177-9bfcc1e5-4cc3-4f47-b48b-04a69a24f56b.png)
+   
+  6. Ursolic acid produced by the 15 species 
+   
+![image](https://user-images.githubusercontent.com/102287683/171939626-2dcbbd97-c42e-4aee-b9e0-7527e5aee302.png)
 
 ## Conclusion
 
-Some conclusion that you could get out of this preliminary study.
+Some conclusion that you could get out of this preliminary study. not done yet 
 
 # References
 [1] 	Christenhusz MJM, Byng JW (2016) The number of known plants species in the world and its annual increase. Phytotaxa 261, 201–217.
