@@ -151,7 +151,11 @@ The clusters 2, 3 and 4 were shared between all the 15 species, indicating that 
 ## Conclusion
 
 Some conclusion that you could get out of this preliminary study. not done yet 
-
+- something about the extraction 
+ - something about the phylogeny 
+   - something about the medicinal plants 
+   something about the technique 
+   
 # References
 [1] 	Christenhusz MJM, Byng JW (2016) The number of known plants species in the world and its annual increase. Phytotaxa 261, 201–217.
 
