@@ -85,7 +85,7 @@ A spectral network of our spectra was built using the feature based molecular ne
 
 ### Molecular Network
 
-The visualization of the [spectral network](https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=5b1d31785ee14497bbd135809d221d16) yielded 20 clusters of more than five features, 6 of five features, 14 of four features, 23 of three features, 45 of 2 features and 563 singletons. 
+* The visualization of the [spectral network](https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=5b1d31785ee14497bbd135809d221d16) yielded 20 clusters of more than five features, 6 of five features, 14 of four features, 23 of three features, 45 of 2 features and 563 singletons. 
 
 ![spectral network labeled](https://user-images.githubusercontent.com/102287683/171931383-a74d9889-9ed1-4ec5-8c43-a0871605d52b.png)
 
@@ -118,7 +118,7 @@ The clusters 2, 3 and 4 were shared between all the 15 species, indicating that 
 
    
 
-   Thirty hits were obtained as a result of the comparison done by GNPS with the database, they are shown on [the library hit table](https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=5b1d31785ee14497bbd135809d221d16&view=view_all_annotations_DB), out of them, several compounds with medicinal uses were found, below we state some examples with their mirror match spectra from the data base and their structure:
+* Thirty hits were obtained as a result of the comparison done by GNPS with the database, they are shown on [the library hit table](https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=5b1d31785ee14497bbd135809d221d16&view=view_all_annotations_DB), out of them, several compounds with medicinal uses were found, below we state some examples with their mirror match spectra from the data base and their structure:
    
 
 
