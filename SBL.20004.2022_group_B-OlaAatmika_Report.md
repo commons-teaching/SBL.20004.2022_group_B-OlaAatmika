@@ -92,16 +92,17 @@ A spectral network of our spectra was built using the feature based molecular ne
 <p align="center"> Spectral network of 15 Gesneriaceae species
 
 From the 20 biggest clusters, seven were associated with Sinningia cardinales: cluster 1, 6, 7, 11, 13, 17, 20, 21 and 22.
+   
+![image](https://user-images.githubusercontent.com/102287683/172021238-ae73cd3b-ade6-47da-8f5d-a6c491893628.png)
 
-![6,7,11,13, 17, 20, 21,22,23](https://user-images.githubusercontent.com/102287683/171932552-610c9f8a-d3f5-4cbc-a35c-d181cf512183.png)
 
 <p align="center"> Cluster 1, 6, 7, 11, 13, 17, 20, 21 and 22
 
-It worth mentioning that the profile of Sinningia cardinalis was the best compared to the other samples as shown in the following picture 
+It worth mentioning that the profile of Sinningia cardinalis had the most intense peaks compared to the other samples as shown in the following picture 
    
 ![ALL](https://user-images.githubusercontent.com/102287683/171934833-6175c70e-9d1d-40dd-8155-13e97a698683.png)
 
-<p align="center"> Total ion chromatograms of all the samples
+<p align="center"> Total ion chromatograms of all the samples, Sinningia cardinalis' chromatogram is shown in blue
           
 The clusters 2, 3 and 4 were shared between all the 15 species, indicating that those features are common between the family members under study 
       
