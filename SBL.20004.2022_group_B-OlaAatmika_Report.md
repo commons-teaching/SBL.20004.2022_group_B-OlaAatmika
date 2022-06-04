@@ -150,12 +150,9 @@ The clusters 2, 3 and 4 were shared between all the 15 species, indicating that 
 ![image](https://user-images.githubusercontent.com/102287683/171939626-2dcbbd97-c42e-4aee-b9e0-7527e5aee302.png)
 
 ## Conclusion
-
-Some conclusion that you could get out of this preliminary study. not done yet 
-- something about the extraction 
- - something about the phylogeny 
-   - something about the medicinal plants 
-   something about the technique 
+In this preliminary study we could extract the metabolites of 15 plant species belonging to the Gesneriaceae family using high throughput method, although the extraction method favoured one species over the others (Sinningia cardinalis), we still had nice profiles from the other plant samples, and we could see the taxonomic realationship between the family members through their features network. We saw that Saintpaulia spp. and Streptocarpus spp. have shared metabolites validating their close phylogeny as described [here](https://en.wikipedia.org/wiki/Streptocarpus_sect._Saintpaulia). We also saw examples of medicinal metabolites produced by the Gesneriads under study, when our mass spectra were compared with GNPS library, despite the fact of conducting untargeted metabolites extraction from the same plant part in all the species under study. 
+   
+   
    
 # References
 [1] 	Christenhusz MJM, Byng JW (2016) The number of known plants species in the world and its annual increase. Phytotaxa 261, 201–217.
