@@ -123,7 +123,7 @@ The clusters 2, 3 and 4 were shared between all the 15 species, indicating that 
 
 
    
- 1. ferulic acid produced by Streptocarpus sp. 2007- 547- 626,Saintpaulia grotei,Saintpaulia ionantha Sinningia cardinalis Streptocarpus sp. 2007- 547- 626 and Saintpaulia grotei
+ 1. ferulic acid produced by Streptocarpus sp. 2007- 547- 626, Saintpaulia grotei, Saintpaulia ionantha, Sinningia cardinalis, Streptocarpus sp. 2007- 547- 626, and Saintpaulia grotei
 
 ![image](https://user-images.githubusercontent.com/102287683/171936966-529fad31-9ed2-47bd-bef1-a7e90db5674b.png)
 
