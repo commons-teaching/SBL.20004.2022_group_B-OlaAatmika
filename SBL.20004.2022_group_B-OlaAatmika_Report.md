@@ -124,28 +124,28 @@ The clusters 2, 3 and 4 were shared between all the 15 species, indicating that 
 
 
    
- 1. ferulic acid produced by Streptocarpus sp. 2007- 547- 626, Saintpaulia grotei, Saintpaulia ionantha, Sinningia cardinalis, Streptocarpus sp. 2007- 547- 626, and Saintpaulia grotei
+ 1. ferulic acid produced by Streptocarpus sp. 2007- 547- 626, Saintpaulia grotei, Saintpaulia ionantha, Sinningia cardinalis, Streptocarpus sp. 2007- 547- 626, and Saintpaulia grotei. Ferulic acid have shown to have low toxicity and it possesses many physiological functions: anti-inflammatory, antioxidant, antimicrobial activity, anticancer and antidiabetic effect (Zdunska K, 2018).
 
 ![image](https://user-images.githubusercontent.com/102287683/171936966-529fad31-9ed2-47bd-bef1-a7e90db5674b.png)
 
-  2. eriocitrin specific to Streptocarpus sp. 433
-
+  2. eriocitrin specific to Streptocarpus sp. 433. Erioctrin is known as a flavanoid, it exhibits several biological properties including antiproliferative and proapoptotic effects. It is also found to strongly enhance reactive oxgen species(ROS) generation, alteration of mitochondrial outer mebrane potential and enhance apoptotic morphological changes (Chengliang Yuan, Guoping Chen, 2021).
+   
 ![image](https://user-images.githubusercontent.com/102287683/171937320-b4a37ce6-a45f-48ea-9193-6f010722762d.png)
    
-  3. enoxolone produced by Sinningia cardinalis,Saintpaulia grotei and Saintpaulia ionantha
+  3. enoxolone produced by Sinningia cardinalis,Saintpaulia grotei and Saintpaulia ionantha. Enoxole is also know as glycyrrhizin acid, that consists physiological properties like anti-inflammtory, antioxidant, and antimicrobial activities. It also plays role in treatment of various dermatological disorders.   
  
 ![image](https://user-images.githubusercontent.com/102287683/171937978-ff4972cd-3a66-4229-b78c-2139dbd4ea86.png)
    
-  4. beta-Lapachone specific to Saintpaulia grotei
+  4. beta-Lapachone specific to Saintpaulia grotei. beta- Lepachone is an ortho-napthoquinone natural product. It plays a role in various pharmacological activities, such as antitumor, antibacterial, antimalarial, anti-_Mycobacterium tuberculosis_, anti-_Tryoanosoma cruzi_ (Qijie Gong, 2021)
 
    
 ![image](https://user-images.githubusercontent.com/102287683/171938646-6ab47436-37ea-46d2-9d44-f3957d1c978a.png)
 
-  5. Xanthoxylin specific to Sinningia cardinalis
+  5. Xanthoxylin specific to Sinningia cardinalis. Xanthoxlin is know to be involved in antispasmodic activity (V Cechinel Filho, 1995), antifungal effects against yeasts, filamrntous fungi and dermatophytes (T R Pinheiro, 1999).
    
 ![image](https://user-images.githubusercontent.com/102287683/171939177-9bfcc1e5-4cc3-4f47-b48b-04a69a24f56b.png)
    
-  6. Ursolic acid produced by the 15 species 
+  6. Ursolic acid produced by the 15 species. Ursolic acid is a natural triterpene compund, that exhibits medicinal effects includes anti-inflammatory, anti-apoptotic anti-oxidant and anti-carcinogenic effects. It can be used for the treatment of cancer, cardiovascuéar disease, liver disease, sarcopenia (DAe Yun Seo, 2018).  
    
 ![image](https://user-images.githubusercontent.com/102287683/171939626-2dcbbd97-c42e-4aee-b9e0-7527e5aee302.png)
 
@@ -168,5 +168,19 @@ In this preliminary study we could extract the metabolites of 15 plant species b
 [6]   Kvist & J.A. Pedersen, (1986). Distribution and taxonomic implications of some phenolics in the family of Gesneriaceae determined by EPR spectroscopy. Biochemical Systematics and Ecology 14(4):385-405.
 
 [7] 	Silva A, Amorim M, Fonseca M, Salvador M, de Sá E, Stefanello MÉ (2019) A New Cytotoxic Naphthoquinone and Other Chemical Constituents of Sinningia reitzii. Journal of the Brazilian Chemical Society.
+   
+[8]  Zdunska K, .Dana A, .Kolodziejczak A, Rotsztejn H (2018). Antioxidant properties of Ferulic Acid and its possible application.  
+   
+[9]  Chengliang Yuan, Guoping Chen, Chengbao Jing, Mengxue Liu, Bo Liang, Guojin Gong, Mei Yu (2021). Eriocitrin, a dietary flavonoid suppressed cell proliferation, induced apoptosis through modulation of JAK2/STAT3 and JNK/p38 MAPKs signaling pathway in MCF-7 cells. 
+
+[10] Qijie Gong, Jiabao HU, Pengfei Wang, Xiang Li, Xiaojin Zhang (2021) A comprehensive review on β-lapachone: Mechanisms, structural modifications, and therapeutic potentials
+   
+[11] A Kowalska, U. Kalinowska-Lis (2019) 18β-Glycyrrhetinic acid: its core biological properties and dermatological applications
+   
+[12] T R Pinheiro, R A Yunes, S N Lopez, C B Santecchia, S A Zacchino, V cechinel Filho (1999).In vitro antifungal evaluation and studies on the mode of action of xanthoxyline derivatives
+   
+[13] V Cechinel Filho, O G Miguel, R J Nunes, J B Calixto, R A Yunes (1995). Antispasmodic activity of xanthoxyline derivatives: structure-activity relationships.
+   
+[13] Dae Yun Seo, Sung Ryul lee, Jun-Won Heo, Mi-Hyun No, Byoung Doo Rhee, Kyung Soo Ko, Hyo-Bum Kwak Jin Han (2018). Ursolic acid in health and disease   
 
 
