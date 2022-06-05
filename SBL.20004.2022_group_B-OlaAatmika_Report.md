@@ -132,7 +132,7 @@ The clusters 2, 3 and 4 were shared between all the 15 species, indicating that 
    
 ![image](https://user-images.githubusercontent.com/102287683/171937320-b4a37ce6-a45f-48ea-9193-6f010722762d.png)
    
-  3. enoxolone produced by Sinningia cardinalis,Saintpaulia grotei and Saintpaulia ionantha. Enoxole is also know as glycyrrhizin acid, that consists physiological properties like anti-inflammtory, antioxidant, and antimicrobial activities. It also plays role in treatment of various dermatological disorders.   
+  3. enoxolone produced by Sinningia cardinalis,Saintpaulia grotei and Saintpaulia ionantha. Enoxole is also know as glycyrrhizin acid, that consists physiological properties like anti-inflammtory, antioxidant, and antimicrobial activities. It also plays role in treatment of various dermatological disorders (A Kowalska, 2019).   
  
 ![image](https://user-images.githubusercontent.com/102287683/171937978-ff4972cd-3a66-4229-b78c-2139dbd4ea86.png)
    
