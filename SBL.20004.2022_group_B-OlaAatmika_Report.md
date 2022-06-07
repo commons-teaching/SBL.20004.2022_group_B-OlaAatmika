@@ -119,7 +119,7 @@ The clusters 2, 3 and 4 were shared between all the 15 species, indicating that 
 
    
 
-* Thirty hits were obtained as a result of the comparison done by GNPS with the database, they are shown on [the library hit table](https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=5b1d31785ee14497bbd135809d221d16&view=view_all_annotations_DB), out of them, several compounds with medicinal uses were found, below we state some examples with their mirror match spectra from the data base and their structure:
+* Eighty five hits were obtained as a result of the comparison done by GNPS with the database, they are shown on [the library hit table](https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=5b1d31785ee14497bbd135809d221d16&view=view_all_annotations_DB), out of them, several compounds with medicinal uses were found, below we state some examples with their mirror match spectra from the data base and their structure:
    
 
 
